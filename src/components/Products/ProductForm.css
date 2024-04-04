@@ -1,0 +1,42 @@
+.background {
+  background: linear-gradient(120deg, #5d81d4, #182848);
+  height: 100vh;
+}
+.form-container {
+  max-width: 400px;
+
+  margin: 0 auto;
+  padding: 20px;
+
+  border-radius: 10px;
+  background-color: #eeeeee;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-container button[type="submit"] {
+  width: 60%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 15px 0px 15px 15px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.form-container button[type="submit"]:hover {
+  background-color: #307c34;
+}

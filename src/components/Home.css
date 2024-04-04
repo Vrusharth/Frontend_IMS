@@ -1,0 +1,51 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  height: 100vh;
+  background: linear-gradient(135deg, #5d81d4, #182848);
+}
+
+.home-container button {
+  width: 50%;
+  max-width: 300px;
+  padding: 15px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dashboard-btn {
+  background-color: #2196f3;
+  color: white;
+}
+
+.create-products-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.products-details-btn {
+  background-color: #ff9800;
+  color: white;
+}
+
+.userview-btn {
+  background-color: #9c27b0;
+  color: white;
+}
+
+.logout-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.home-container button:hover {
+  background-color: #555;
+}

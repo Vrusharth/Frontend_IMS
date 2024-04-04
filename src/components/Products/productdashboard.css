@@ -1,0 +1,66 @@
+/* ProductDashboard.css */
+
+h2 {
+  margin-top: 10px;
+  text-align: center;
+  width: 100vw;
+}
+
+.back-btn {
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  top: -45px;
+  left: 20px;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  gap: 20px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #dddddd;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.product-card p {
+  margin-top: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.remove-button {
+  background-color: crimson;
+  width: fit-content;
+  position: relative;
+  left: 25%;
+  margin-top: 15px;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.remove-button:hover {
+  background-color: #8b0101;
+}
